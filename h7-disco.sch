@@ -8769,16 +8769,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="RESET" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-6.2MM-TALL" value=""/>
-<part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value=" "/>
+<part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="100K"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="0.33UF/330NF" device="-0805-50V-10%" value="4.3pF"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="0.33UF/330NF" device="-0805-50V-10%" value="4.3pF"/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="0.33UF/330NF" device="-0805-50V-10%" value="2.7pF"/>
 <part name="C4" library="SparkFun-Capacitors" deviceset="0.33UF/330NF" device="-0805-50V-10%" value="2.7pF"/>
-<part name="C5" library="SparkFun-Capacitors" deviceset="0.33UF/330NF" device="-0805-50V-10%" value="0.33µF"/>
+<part name="C5" library="SparkFun-Capacitors" deviceset="0.33UF/330NF" device="-0805-50V-10%" value="100nF"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value=" "/>
+<part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="10K"/>
 <part name="J1" library="SparkFun-Connectors" deviceset="CONN_25X2" device=""/>
 <part name="J2" library="SparkFun-Connectors" deviceset="CONN_25X2" device=""/>
 <part name="C6" library="SparkFun-Capacitors" deviceset="0.33UF/330NF" device="-0805-50V-10%" value="0.1µF"/>
@@ -8790,7 +8790,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="VD1" library="usblc6" deviceset="USBLC6-2" device="SC6" value="USBLC6-2SC6"/>
-<part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value=" "/>
+<part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="100K"/>
 <part name="C12" library="SparkFun-Capacitors" deviceset="0.33UF/330NF" device="-0805-50V-10%" value="0.1µF"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
@@ -8812,9 +8812,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
-<part name="R11" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value=" "/>
+<part name="R11" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="100K"/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
-<part name="C11" library="SparkFun-Capacitors" deviceset="2.2UF" device="-0805-25V-(+80/-20%)" value="2.2uF"/>
+<part name="C11" library="SparkFun-Capacitors" deviceset="2.2UF" device="-0805-25V-(+80/-20%)" value="100nF"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="C16" library="SparkFun-Capacitors" deviceset="2.2UF" device="-0805-25V-(+80/-20%)" value="10pF"/>
 <part name="C18" library="SparkFun-Capacitors" deviceset="2.2UF" device="-0805-25V-(+80/-20%)" value="10pF"/>
@@ -8822,8 +8822,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
-<part name="R4" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value=" "/>
-<part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value=" "/>
+<part name="R4" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="22"/>
+<part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="22"/>
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
 <part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="1K5"/>
 <part name="C19" library="SparkFun-Capacitors" deviceset="2.2UF" device="-0805-25V-(+80/-20%)" value="100nF"/>
@@ -8855,16 +8855,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="+3V15" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
-<part name="C24" library="SparkFun-Capacitors" deviceset="0.33UF/330NF" device="-0805-50V-10%" value="0.33µF"/>
-<part name="C25" library="SparkFun-Capacitors" deviceset="2.2UF" device="-0805-25V-(+80/-20%)" value="2.2uF"/>
+<part name="C24" library="SparkFun-Capacitors" deviceset="0.33UF/330NF" device="-0805-50V-10%" value="100nF"/>
+<part name="C25" library="SparkFun-Capacitors" deviceset="2.2UF" device="-0805-25V-(+80/-20%)" value="0.1uF"/>
 <part name="U2" library="X893" deviceset="TPS73033" device="" value="LDO-3.3V"/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="D3" library="X893" deviceset="SP0503BAHT" device=""/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="STM_JTMS" library="testpad" deviceset="TP" device="TP10R" value="TPTP10R"/>
 <part name="STM_JTCK" library="testpad" deviceset="TP" device="TP10R" value="TPTP10R"/>
-<part name="R22" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value=" "/>
-<part name="R21" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value=" "/>
+<part name="R22" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="10K"/>
+<part name="R21" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="10K"/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
 <part name="CN2" library="X893" deviceset="M06X2" device=""/>
 <part name="R24" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="22"/>
@@ -8877,7 +8877,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R27" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="36K"/>
 <part name="R28" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="100"/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
-<part name="R30" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value=" "/>
+<part name="R30" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="4K7"/>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
 <part name="Q4" library="crystal" deviceset="CRYSTAL" device="HC49S" value="8 MHz"/>
 <part name="PWR_ENN" library="testpad" deviceset="TP" device="TP10R" value="TPTP10R"/>
@@ -8885,7 +8885,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R10" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="100K"/>
 <part name="+3V13" library="supply1" deviceset="+3V3" device=""/>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
-<part name="C26" library="SparkFun-Capacitors" deviceset="2.2UF" device="-1206-50V-10%" value="2.2uF"/>
+<part name="C26" library="SparkFun-Capacitors" deviceset="2.2UF" device="-1206-50V-10%" value="1µF"/>
 <part name="AIN_1" library="testpad" deviceset="TP" device="TP10R" value="TPTP10R"/>
 <part name="PWR_EXT" library="testpad" deviceset="TP" device="TP10R" value="TPTP10R"/>
 <part name="C22" library="SparkFun-Capacitors" deviceset="2.2UF" device="-0805-25V-(+80/-20%)" value="100nF"/>
@@ -8911,7 +8911,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C27" library="SparkFun-Capacitors" deviceset="0.33UF/330NF" device="-0805-50V-10%" value="10pF"/>
 <part name="C28" library="SparkFun-Capacitors" deviceset="0.33UF/330NF" device="-0805-50V-10%" value="10pF"/>
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
-<part name="R33" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value=" "/>
+<part name="R33" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="100K"/>
 <part name="+3V17" library="supply1" deviceset="+3V3" device=""/>
 <part name="C29" library="SparkFun-Capacitors" deviceset="0.33UF/330NF" device="-0805-50V-10%" value="0.1µF"/>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
@@ -8919,7 +8919,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C31" library="SparkFun-Capacitors" deviceset="0.33UF/330NF" device="-0805-50V-10%" value="0.1µF"/>
 <part name="C34" library="SparkFun-Capacitors" deviceset="0.33UF/330NF" device="-0805-50V-10%" value="0.1µF"/>
 <part name="C33" library="SparkFun-Capacitors" deviceset="0.33UF/330NF" device="-0805-50V-10%" value="0.1µF"/>
-<part name="R34" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value=" "/>
+<part name="R34" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805" value="10K"/>
 <part name="GND35" library="supply1" deviceset="GND" device=""/>
 <part name="J4" library="SparkFun-Connectors" deviceset="CONN_02" device="" value="BOOT0"/>
 <part name="+3V18" library="supply1" deviceset="+3V3" device=""/>
@@ -8969,19 +8969,34 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="+3V3" gate="G$1" x="25.4" y="-38.1"/>
 <instance part="GND1" gate="1" x="76.2" y="-83.82"/>
 <instance part="RESET" gate="G$1" x="-10.16" y="17.78" rot="R270"/>
-<instance part="R1" gate="G$1" x="-26.67" y="25.4" rot="R180"/>
-<instance part="C1" gate="G$1" x="-7.62" y="53.34" rot="R90"/>
-<instance part="C2" gate="G$1" x="-7.62" y="58.42" rot="R90"/>
-<instance part="C3" gate="G$1" x="-7.62" y="68.58" smashed="yes" rot="R90">
-<attribute name="NAME" x="-10.541" y="70.104" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="-16.383" y="66.548" size="1.778" layer="96" font="vector" rot="R90"/>
+<instance part="R1" gate="G$1" x="-26.67" y="25.4" smashed="yes" rot="R180">
+<attribute name="NAME" x="-26.67" y="23.876" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="-26.67" y="26.924" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
-<instance part="C4" gate="G$1" x="-7.62" y="73.66" rot="R90"/>
-<instance part="C5" gate="G$1" x="-2.54" y="17.78" rot="R180"/>
+<instance part="C1" gate="G$1" x="-7.62" y="53.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="-6.858" y="54.229" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="-7.112" y="50.165" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="C2" gate="G$1" x="-7.62" y="58.42" smashed="yes" rot="R90">
+<attribute name="NAME" x="-10.414" y="58.039" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="-6.604" y="63.119" size="1.778" layer="96" font="vector" rot="R180"/>
+</instance>
+<instance part="C3" gate="G$1" x="-7.62" y="68.58" smashed="yes" rot="R90">
+<attribute name="NAME" x="-10.414" y="67.945" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="-7.112" y="66.167" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="C4" gate="G$1" x="-7.62" y="73.66" smashed="yes" rot="R90">
+<attribute name="NAME" x="-7.366" y="74.803" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="-9.906" y="76.581" size="1.778" layer="96" font="vector" rot="R180"/>
+</instance>
+<instance part="C5" gate="G$1" x="-2.54" y="17.78" smashed="yes" rot="R180">
+<attribute name="NAME" x="-1.905" y="18.542" size="1.778" layer="95" font="vector" rot="MR90"/>
+<attribute name="VALUE" x="-1.905" y="14.986" size="1.778" layer="96" font="vector" rot="R270"/>
+</instance>
 <instance part="GND2" gate="1" x="-10.16" y="5.08"/>
 <instance part="+3V2" gate="G$1" x="-33.02" y="30.48"/>
-<instance part="GND4" gate="1" x="2.54" y="7.62"/>
-<instance part="R2" gate="G$1" x="2.54" y="16.51" rot="R270"/>
+<instance part="GND4" gate="1" x="4.572" y="7.874"/>
+<instance part="R2" gate="G$1" x="4.572" y="16.51" rot="R270"/>
 <instance part="J1" gate="G$1" x="124.46" y="68.58"/>
 <instance part="J2" gate="G$1" x="167.64" y="68.58"/>
 <instance part="C6" gate="G$1" x="30.48" y="-73.66" rot="R180"/>
@@ -9002,10 +9017,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="-15.24" y="-46.228" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="-16.51" y="-46.228" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
 </instance>
-<instance part="C13" gate="G$1" x="2.54" y="30.48" rot="R270"/>
-<instance part="C14" gate="G$1" x="-19.05" y="33.02" rot="R270"/>
-<instance part="C15" gate="G$1" x="-10.16" y="38.1" rot="R270"/>
-<instance part="C17" gate="G$1" x="1.27" y="43.18" rot="R270"/>
+<instance part="C13" gate="G$1" x="2.54" y="30.48" smashed="yes" rot="R270">
+<attribute name="NAME" x="5.588" y="30.861" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="5.588" y="28.067" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="C14" gate="G$1" x="-19.05" y="33.02" smashed="yes" rot="R270">
+<attribute name="NAME" x="-15.748" y="33.401" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="-15.748" y="30.861" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="C15" gate="G$1" x="-10.16" y="38.1" smashed="yes" rot="R270">
+<attribute name="NAME" x="-6.35" y="39.243" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="-6.35" y="35.941" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="C17" gate="G$1" x="1.27" y="43.18" smashed="yes" rot="R270">
+<attribute name="NAME" x="4.064" y="44.069" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="4.064" y="41.021" size="1.778" layer="96" font="vector"/>
+</instance>
 <instance part="GND8" gate="1" x="-27.94" y="38.1"/>
 <instance part="D2" gate="G$1" x="-12.7" y="-43.18" smashed="yes">
 <attribute name="NAME" x="-15.24" y="-41.148" size="1.778" layer="95" font="vector"/>
@@ -9014,7 +9041,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="J5" gate="G$1" x="123.317" y="10.16"/>
 <instance part="USB" gate="G$1" x="-99.06" y="-63.5" rot="MR0"/>
 <instance part="USB" gate="G$2" x="-93.98" y="-53.34" rot="MR0"/>
-<instance part="+3V1" gate="G$1" x="12.7" y="48.26"/>
+<instance part="+3V1" gate="G$1" x="12.7" y="48.26" smashed="yes">
+<attribute name="VALUE" x="13.97" y="48.006" size="1.778" layer="96"/>
+</instance>
 <instance part="J3" gate="G$1" x="165.1" y="10.16"/>
 <instance part="STM32F103CB" gate="PORTA_L" x="40.64" y="238.76"/>
 <instance part="STM32F103CB" gate="PORTA_H" x="40.64" y="210.82"/>
@@ -9064,10 +9093,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="39.37" y="297.688" size="1.778" layer="96"/>
 </instance>
 <instance part="R4" gate="G$1" x="31.75" y="288.29" smashed="yes" rot="R180">
-<attribute name="NAME" x="31.75" y="291.846" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="31.75" y="289.814" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
+<attribute name="NAME" x="29.21" y="289.814" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="34.29" y="289.814" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
-<instance part="R5" gate="G$1" x="31.75" y="285.75" rot="R180"/>
+<instance part="R5" gate="G$1" x="31.75" y="285.75" smashed="yes" rot="R180">
+<attribute name="NAME" x="29.21" y="284.226" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="34.29" y="284.226" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
 <instance part="+3V8" gate="G$1" x="24.13" y="317.5" smashed="yes">
 <attribute name="VALUE" x="21.336" y="318.008" size="1.778" layer="96"/>
 </instance>
@@ -9148,8 +9180,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </instance>
 <instance part="STM_JTMS" gate="G$1" x="19.304" y="207.518"/>
 <instance part="STM_JTCK" gate="G$1" x="19.304" y="199.644" rot="R180"/>
-<instance part="R22" gate="G$1" x="25.4" y="154.94" rot="R180"/>
-<instance part="R21" gate="G$1" x="25.146" y="159.258"/>
+<instance part="R22" gate="G$1" x="25.4" y="154.94" smashed="yes" rot="R180">
+<attribute name="NAME" x="22.86" y="153.162" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="28.956" y="153.162" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
+<instance part="R21" gate="G$1" x="25.146" y="159.258" smashed="yes">
+<attribute name="NAME" x="22.606" y="160.782" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="28.702" y="160.782" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
+</instance>
 <instance part="GND23" gate="1" x="15.748" y="152.4" smashed="yes">
 <attribute name="VALUE" x="13.208" y="150.114" size="1.778" layer="96"/>
 </instance>
@@ -9457,7 +9495,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="2.54" y1="10.16" x2="2.54" y2="11.43" width="0.1524" layer="91"/>
+<wire x1="4.572" y1="10.414" x2="4.572" y2="11.43" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
@@ -11061,8 +11099,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="STM32H743VI" gate="G$2" pin="BOOT0"/>
-<wire x1="2.54" y1="21.59" x2="2.54" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="22.86" x2="10.16" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="4.572" y1="21.59" x2="4.572" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="4.572" y1="22.86" x2="10.16" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <label x="10.16" y="20.32" size="0.6096" layer="95" rot="R270" xref="yes"/>
 <wire x1="10.16" y1="22.86" x2="25.4" y2="22.86" width="0.1524" layer="91"/>
